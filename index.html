@@ -11,15 +11,17 @@
 
     <link href="https://fonts.googleapis.com/css?family=Acme|Chau+Philomene+One&display=swap" rel="stylesheet"></head>
 <body>
+<div id="container">
     <h1>SCORE BOARD</h1>
     <h1><span id="sp1disp">0</span> to <span id="sp2disp">0</span></h1>
     <p>Playing to : <span id="playto">5</span></p>
 
     
-        <input type="number"  min="0" >
-        <button id="b1">Player One</button>
-        <button>Player two</button>
-        <button id="reset">reset</button>
+        Enter Max Score: <input type="number"  min="0" ><br>
+        <button id="b1" class="btn btn-primary">Player One</button>
+        <button class="btn btn-primary">Player two</button>
+        <button class="btn btn-primary" id="reset">reset</button>
+</div>
 
     
        <script src="skeepr.js"></script>
