@@ -1,7 +1,7 @@
 body{
     background-color: #0f0f0f;
-    margin-top:15%;
-    margin-left:20%; 
+	font-family:candara;
+	color:white
 }
 
 button{
@@ -13,7 +13,6 @@ button{
 h1{
     font-family: 'Chau Philomene One', sans-serif;
     /* */
-
     color:pink
 }
 
@@ -21,4 +20,12 @@ p{
     color: orangered;
     font-family: 'Acme', sans-serif;
     font-size:x-large;
+}
+
+input[type="number"]{
+	margin-bottom:10px;
+}
+#container{
+    width:350px;
+    margin:100px auto;
 }
